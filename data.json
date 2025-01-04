@@ -1,29 +1,29 @@
 [
   {
-    "name": "sdfsdf",
+    "name": "sdfsdfsdf",
     "age": "28",
     "gender": "female",
-    "occupation": "sdfsdf",
-    "personality": "sdfsdf",
+    "occupation": "sdfsdfsd",
+    "personality": "sdfsdfsf",
     "hobbies": [
-      "sdfsdf",
-      "sdfsdf",
-      "sdfsdfsdf"
+      "sdfdsfsd",
+      "sdfdsf",
+      "sdfdsf"
     ],
-    "story": "sdfsdf",
-    "relationToYou": "sdfsdfsdf",
+    "story": "sdfsdfsdf",
+    "relationToYou": "sdfsdf",
     "otherRelations": [
       {
         "character": "sdfsdf",
-        "relation": "sdfsdf"
+        "relation": "sdfsf"
       },
       {
         "character": "sdfdsf",
-        "relation": "sfsdfsdf"
+        "relation": "sdfsdf"
       },
       {
-        "character": "sdfsfsf",
-        "relation": "sdfsdfdf"
+        "character": "sdfsdf",
+        "relation": "sfsdf"
       }
     ]
   }
