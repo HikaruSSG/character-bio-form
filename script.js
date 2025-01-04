@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const bio = {
             name: formData.get('name'),
             age: formData.get('age'),
+            gender: formData.get('gender'),
             occupation: formData.get('occupation'),
             personality: formData.get('personality'),
             hobbies: [],
@@ -136,7 +137,8 @@ document.addEventListener('DOMContentLoaded', function() {
             hobbies: [],
             story: formData.get('story'),
             relationToYou: formData.get('relationToYou'),
-            otherRelations: []
+            otherRelations: [],
+            gender: formData.get('gender')
         };
 
         const hobbyInputs = document.querySelectorAll('#hobbiesContainer input[name="hobby[]"]');

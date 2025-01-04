@@ -31,6 +31,7 @@ const server = http.createServer(async (req, res) => {
     req.on('end', async () => {
       try {
         const newBio = JSON.parse(body);
+        console.log('Received new bio:', newBio);
         const data = await fs.readFile(dataFilePath, 'utf8');
         const existingBios = JSON.parse(data);
         existingBios.push(newBio);
