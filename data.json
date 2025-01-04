@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Hikari",
+    "age": "27",
+    "occupation": "Data Analyst",
+    "personality": "She is sweet and calm. She is careful to her words and modest.",
+    "hobbies": [
+      "Watching Anime",
+      "Listening Music",
+      "Programming"
+    ],
+    "story": "We are become step sibling for 8 months only and we are disconnected because of what happened on our family 10 years ago. She is still cherish our relationship for decades until we finally reunited one day.  ",
+    "relationToYou": "step younger sister",
+    "otherRelations": [
+      {
+        "character": "Genji",
+        "relation": "father"
+      },
+      {
+        "character": "Shina",
+        "relation": "friend"
+      },
+      {
+        "character": "Goro",
+        "relation": "uncle"
+      }
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+body {
+    font-family: sans-serif;
+    background-color: #1a1a1a;
+    background-image: linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333),
+                      linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 600px; /* Increased width */
+    max-width: 95%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+    color: #eee;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px; /* Increased margin */
+    color: #ddd;
+    font-weight: bold;
+    font-size: 1.1em; /* Slightly larger font */
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 18px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px; /* Increased min-height */
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 18px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button[type="button"] {
+    background-color: #218838;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+    background-color: #1a692d
+}
+
+#addRelation {
+    background-color: #218838;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#addRelation:hover {
+    background-color: #1a692d;
+}
+
+#relationsContainer > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+#relationsContainer > div input[type="text"] {
+    margin-right: 10px;
+}
+
+#relationsContainer {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+#viewBio {
+    background-color: #5a6268;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#viewBio:hover {
+    background-color: #4a5156;
+}
+
+#hobbies-short {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+#hobbies-full textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 5px;
+    min-height: 120px;
+    resize: vertical;
+}
+
+
+#show-more-hobbies:hover {
+    background-color: #004080;
+}
+
+#hobbiesContainer {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+#hobbiesContainer > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+#hobbiesContainer > div input[type="text"] {
+    margin-right: 10px;
+}
+
+#characterBioForm button.button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#characterBioForm button.button[type="submit"]:hover {
+    background-color: #fff;
+    color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#downloadBio {
+    background-color: #5a6268;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#downloadBio:hover {
+    background-color: #4a5156;
+}
