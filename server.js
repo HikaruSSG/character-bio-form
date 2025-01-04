@@ -2,8 +2,8 @@ const http = require('http');
 const fs = require('fs').promises;
 const path = require('path');
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const hostname = process.env.HOSTNAME || '127.0.0.1';
+const port = process.env.PORT || 3000;
 const dataFilePath = path.join(__dirname, 'data.json');
 
 // Create data.json if it doesn't exist
