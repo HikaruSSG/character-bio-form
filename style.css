@@ -1,12 +1,74 @@
+:root {
+    --hk-text-50: #f1f2f4;
+    --hk-text-100: #e3e6e8;
+    --hk-text-200: #c6ccd2;
+    --hk-text-300: #aab3bb;
+    --hk-text-400: #8e99a4;
+    --hk-text-500: #717f8e;
+    --hk-text-600: #5b6671;
+    --hk-text-700: #444c55;
+    --hk-text-800: #2d3339;
+    --hk-text-900: #17191c;
+    --hk-text-950: #0b0d0e;
+
+    --hk-background-50: #f0f2f4;
+    --hk-background-100: #e1e5ea;
+    --hk-background-200: #c3cad5;
+    --hk-background-300: #a5b0c0;
+    --hk-background-400: #8896aa;
+    --hk-background-500: #6a7b95;
+    --hk-background-600: #556377;
+    --hk-background-700: #3f4a5a;
+    --hk-background-800: #2a313c;
+    --hk-background-900: #15191e;
+    --hk-background-950: #0b0c0f;
+
+    --hk-primary-50: #eff2f5;
+    --hk-primary-100: #e0e5eb;
+    --hk-primary-200: #c1cbd7;
+    --hk-primary-300: #a2b0c3;
+    --hk-primary-400: #8396af;
+    --hk-primary-500: #637c9c;
+    --hk-primary-600: #50637c;
+    --hk-primary-700: #3c4a5d;
+    --hk-primary-800: #28323e;
+    --hk-primary-900: #14191f;
+    --hk-primary-950: #0a0c10;
+
+    --hk-secondary-50: #eff2f6;
+    --hk-secondary-100: #dfe5ec;
+    --hk-secondary-200: #becbda;
+    --hk-secondary-300: #9eb0c7;
+    --hk-secondary-400: #7d96b5;
+    --hk-secondary-500: #5d7ca2;
+    --hk-secondary-600: #4a6382;
+    --hk-secondary-700: #384a61;
+    --hk-secondary-800: #253241;
+    --hk-secondary-900: #131920;
+    --hk-secondary-950: #090c10;
+
+    --hk-accent-50: #eef2f6;
+    --hk-accent-100: #dde4ee;
+    --hk-accent-200: #bccadc;
+    --hk-accent-300: #9aafcb;
+    --hk-accent-400: #7895ba;
+    --hk-accent-500: #577aa8;
+    --hk-accent-600: #456287;
+    --hk-accent-700: #344965;
+    --hk-accent-800: #233143;
+    --hk-accent-900: #111822;
+    --hk-accent-950: #090c11;
+}
+
 body {
     font-family: sans-serif;
-    background-color: #1a1a1a;
-    background-image: linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333),
-                      linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333);
+    background-color: var(--hk-background-900);
+    background-image: linear-gradient(45deg, var(--hk-background-800) 25%, transparent 25%, transparent 75%, var(--hk-background-800) 75%, var(--hk-background-800)),
+                      linear-gradient(45deg, var(--hk-background-800) 25%, transparent 25%, transparent 75%, var(--hk-background-800) 75%, var(--hk-background-800));
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +76,7 @@ body {
 }
 
 .container {
-    background-color: #333;
+    background-color: var(--hk-background-800);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
@@ -25,7 +87,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px; /* Increased margin */
-    color: #eee;
+    color: var(--hk-text-50);
 }
 
 .form-group {
@@ -35,7 +97,7 @@ h1 {
 .form-group label {
     display: block;
     margin-bottom: 8px; /* Increased margin */
-    color: #ddd;
+    color : var(--hk-text-200);
     font-weight: bold;
     font-size: 1.1em; /* Slightly larger font */
 }
@@ -51,6 +113,8 @@ h1 {
     box-sizing: border-box;
     font-size: 16px;
     margin-bottom: 10px;
+    background-color: var(--hk-background-700);
+    color: var(--hk-text-100);
 }
 
 .form-group textarea {
@@ -67,11 +131,13 @@ h1 {
     box-sizing: border-box;
     font-size: 16px;
     margin-bottom: 10px;
+    background-color: var(--hk-background-700);
+    color: var(--hk-text-100);
 }
 
 button[type="button"] {
-    background-color: #218838;
-    color: #fff;
+    background-color: var(--hk-primary-500);
+    color: var(--hk-text-50);
     padding: 10px;
     margin-top: 10px;
     border: none;
@@ -82,12 +148,12 @@ button[type="button"] {
 }
 
 button[type="button"]:hover {
-    background-color: #1a692d
+    background-color: var(--hk-primary-400);
 }
 
 #addRelation {
-    background-color: #218838;
-    color: #fff;
+    background-color: var(--hk-primary-500);
+    color: var(--hk-text-50);
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -98,14 +164,13 @@ button[type="button"]:hover {
 }
 
 #addRelation:hover {
-    background-color: #1a692d;
+    background-color: var(--hk-primary-400);
 }
 
 #relationsContainer > div {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
-    margin-bottom: 10px;
     justify-content: space-between;
 }
 
@@ -114,15 +179,15 @@ button[type="button"]:hover {
 }
 
 #relationsContainer {
-    border: 1px solid #555;
+    border: 1px solid var(--hk-background-600);
     padding: 10px;
     border-radius: 6px;
     margin-top: 5px;
 }
 
 #viewBio {
-    background-color: #5a6268;
-    color: #fff;
+    background-color: var(--hk-secondary-500);
+    color: var(--hk-text-50);
     padding: 14px 24px;
     border: none;
     border-radius: 6px;
@@ -135,11 +200,11 @@ button[type="button"]:hover {
 }
 
 #viewBio:hover {
-    background-color: #4a5156;
+    background-color: var(--hk-secondary-400);
 }
 
 #hobbies-short {
-    border: 1px solid #555;
+    border: 1px solid var(--hk-background-600);
     padding: 10px;
     border-radius: 6px;
     margin-bottom: 5px;
@@ -155,15 +220,16 @@ button[type="button"]:hover {
     margin-bottom: 5px;
     min-height: 120px;
     resize: vertical;
+    background-color: var(--hk-background-700);
+    color: var(--hk-text-100);
 }
 
-
 #show-more-hobbies:hover {
-    background-color: #004080;
+    background-color: var(--hk-accent-500);
 }
 
 #hobbiesContainer {
-    border: 1px solid #555;
+    border: 1px solid var(--hk-background-600);
     padding: 10px;
     border-radius: 6px;
     margin-top: 5px;
@@ -181,10 +247,10 @@ button[type="button"]:hover {
 }
 
 #characterBioForm button.button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--hk-primary-500);
+    color: var(--hk-text-50);
     padding: 8px;
-    border: 2px solid #007bff;
+    border: 2px solid var(--hk-primary-500);
     border-radius: 6px;
     cursor: pointer;
     font-size: 18px;
@@ -193,14 +259,14 @@ button[type="button"]:hover {
 }
 
 #characterBioForm button.button[type="submit"]:hover {
-    background-color: #fff;
-    color: #007bff;
+    background-color: var(--hk-text-50);
+    color: var(--hk-primary-500);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #downloadBio {
-    background-color: #5a6268;
-    color: #fff;
+    background-color: var(--hk-secondary-500);
+    color: var(--hk-text-50);
     padding: 14px 24px;
     border: none;
     border-radius: 6px;
@@ -213,5 +279,5 @@ button[type="button"]:hover {
 }
 
 #downloadBio:hover {
-    background-color: #4a5156;
+    background-color: var(--hk-secondary-400);
 }

@@ -99,7 +99,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             console.log('Bio saved:', data);
-            // Optionally, update the UI to show a success message
+            alert('Submission successful!');
+            window.location.reload();
             fetchBios(); // Refresh the list of bios
         });
     });
@@ -123,3 +124,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetchBios();
 });
+
+function downloadBios() {
+    fetch('/get-bios')
+        .then(response => response.json())
+        .then(data => {
+            const jsonData = JSON.stringify(data, null, 2);
+            const blob = new Blob([jsonData], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'bios.json';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        });
+}
