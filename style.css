@@ -1,70 +1,70 @@
 :root {
-    --hk-text-50: #f1f2f4;
-    --hk-text-100: #e3e6e8;
-    --hk-text-200: #c6ccd2;
-    --hk-text-300: #aab3bb;
-    --hk-text-400: #8e99a4;
-    --hk-text-500: #717f8e;
-    --hk-text-600: #5b6671;
-    --hk-text-700: #444c55;
-    --hk-text-800: #2d3339;
-    --hk-text-900: #17191c;
-    --hk-text-950: #0b0d0e;
+    --text-50: #f1f2f4;
+    --text-100: #e3e6e8;
+    --text-200: #c6ccd2;
+    --text-300: #aab3bb;
+    --text-400: #8e99a4;
+    --text-500: #717f8e;
+    --text-600: #5b6671;
+    --text-700: #444c55;
+    --text-800: #2d3339;
+    --text-900: #17191c;
+    --text-950: #0b0d0e;
 
-    --hk-background-50: #f0f2f4;
-    --hk-background-100: #e1e5ea;
-    --hk-background-200: #c3cad5;
-    --hk-background-300: #a5b0c0;
-    --hk-background-400: #8896aa;
-    --hk-background-500: #6a7b95;
-    --hk-background-600: #556377;
-    --hk-background-700: #3f4a5a;
-    --hk-background-800: #2a313c;
-    --hk-background-900: #15191e;
-    --hk-background-950: #0b0c0f;
+    --background-50: #f0f2f4;
+    --background-100: #e1e5ea;
+    --background-200: #c3cad5;
+    --background-300: #a5b0c0;
+    --background-400: #8896aa;
+    --background-500: #6a7b95;
+    --background-600: #556377;
+    --background-700: #3f4a5a;
+    --background-800: #2a313c;
+    --background-900: #15191e;
+    --background-950: #0b0c0f;
 
-    --hk-primary-50: #eff2f5;
-    --hk-primary-100: #e0e5eb;
-    --hk-primary-200: #c1cbd7;
-    --hk-primary-300: #a2b0c3;
-    --hk-primary-400: #8396af;
-    --hk-primary-500: #637c9c;
-    --hk-primary-600: #50637c;
-    --hk-primary-700: #3c4a5d;
-    --hk-primary-800: #28323e;
-    --hk-primary-900: #14191f;
-    --hk-primary-950: #0a0c10;
+    --primary-50: #eff2f5;
+    --primary-100: #e0e5eb;
+    --primary-200: #c1cbd7;
+    --primary-300: #a2b0c3;
+    --primary-400: #8396af;
+    --primary-500: #637c9c;
+    --primary-600: #50637c;
+    --primary-700: #3c4a5d;
+    --primary-800: #28323e;
+    --primary-900: #14191f;
+    --primary-950: #0a0c10;
 
-    --hk-secondary-50: #eff2f6;
-    --hk-secondary-100: #dfe5ec;
-    --hk-secondary-200: #becbda;
-    --hk-secondary-300: #9eb0c7;
-    --hk-secondary-400: #7d96b5;
-    --hk-secondary-500: #5d7ca2;
-    --hk-secondary-600: #4a6382;
-    --hk-secondary-700: #384a61;
-    --hk-secondary-800: #253241;
-    --hk-secondary-900: #131920;
-    --hk-secondary-950: #090c10;
+    --secondary-50: #eff2f6;
+    --secondary-100: #dfe5ec;
+    --secondary-200: #becbda;
+    --secondary-300: #9eb0c7;
+    --secondary-400: #7d96b5;
+    --secondary-500: #5d7ca2;
+    --secondary-600: #4a6382;
+    --secondary-700: #384a61;
+    --secondary-800: #253241;
+    --secondary-900: #131920;
+    --secondary-950: #090c10;
 
-    --hk-accent-50: #eef2f6;
-    --hk-accent-100: #dde4ee;
-    --hk-accent-200: #bccadc;
-    --hk-accent-300: #9aafcb;
-    --hk-accent-400: #7895ba;
-    --hk-accent-500: #577aa8;
-    --hk-accent-600: #456287;
-    --hk-accent-700: #344965;
-    --hk-accent-800: #233143;
-    --hk-accent-900: #111822;
-    --hk-accent-950: #090c11;
+    --accent-50: #eef2f6;
+    --accent-100: #dde4ee;
+    --accent-200: #bccadc;
+    --accent-300: #9aafcb;
+    --accent-400: #7895ba;
+    --accent-500: #577aa8;
+    --accent-600: #456287;
+    --accent-700: #344965;
+    --accent-800: #233143;
+    --accent-900: #111822;
+    --accent-950: #090c11;
 }
 
 body {
     font-family: sans-serif;
-    background-color: var(--hk-background-900);
-    background-image: linear-gradient(45deg, var(--hk-background-800) 25%, transparent 25%, transparent 75%, var(--hk-background-800) 75%, var(--hk-background-800)),
-                      linear-gradient(45deg, var(--hk-background-800) 25%, transparent 25%, transparent 75%, var(--hk-background-800) 75%, var(--hk-background-800));
+    background-color: var(--background-900);
+    background-image: linear-gradient(45deg, var(--background-800) 25%, transparent 25%, transparent 75%, var(--background-800) 75%, var(--background-800)),
+                      linear-gradient(45deg, var(--background-800) 25%, transparent 25%, transparent 75%, var(--background-800) 75%, var(--background-800));
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
     margin: 0;
@@ -76,7 +76,7 @@ body {
 }
 
 .container {
-    background-color: var(--hk-background-800);
+    background-color: var(--background-800);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
@@ -87,7 +87,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px; /* Increased margin */
-    color: var(--hk-text-50);
+    color: var(--text-50);
 }
 
 .form-group {
@@ -97,7 +97,7 @@ h1 {
 .form-group label {
     display: block;
     margin-bottom: 8px; /* Increased margin */
-    color : var(--hk-text-200);
+    color : var(--text-200);
     font-weight: bold;
     font-size: 1.1em; /* Slightly larger font */
 }
@@ -113,8 +113,8 @@ h1 {
     box-sizing: border-box;
     font-size: 16px;
     margin-bottom: 10px;
-    background-color: var(--hk-background-700);
-    color: var(--hk-text-100);
+    background-color: var(--background-700);
+    color: var(--text-100);
 }
 
 .form-group textarea {
@@ -131,13 +131,13 @@ h1 {
     box-sizing: border-box;
     font-size: 16px;
     margin-bottom: 10px;
-    background-color: var(--hk-background-700);
-    color: var(--hk-text-100);
+    background-color: var(--background-700);
+    color: var(--text-100);
 }
 
 button[type="button"] {
-    background-color: var(--hk-primary-500);
-    color: var(--hk-text-50);
+    background-color: var(--primary-500);
+    color: var(--text-50);
     padding: 10px;
     margin-top: 10px;
     border: none;
@@ -148,12 +148,12 @@ button[type="button"] {
 }
 
 button[type="button"]:hover {
-    background-color: var(--hk-primary-400);
+    background-color: var(--primary-400);
 }
 
 #addRelation {
-    background-color: var(--hk-primary-500);
-    color: var(--hk-text-50);
+    background-color: var(--primary-500);
+    color: var(--text-50);
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -164,7 +164,7 @@ button[type="button"]:hover {
 }
 
 #addRelation:hover {
-    background-color: var(--hk-primary-400);
+    background-color: var(--primary-400);
 }
 
 #relationsContainer > div {
@@ -179,15 +179,15 @@ button[type="button"]:hover {
 }
 
 #relationsContainer {
-    border: 1px solid var(--hk-background-600);
+    border: 1px solid var(--background-600);
     padding: 10px;
     border-radius: 6px;
     margin-top: 5px;
 }
 
 #viewBio {
-    background-color: var(--hk-secondary-500);
-    color: var(--hk-text-50);
+    background-color: var(--secondary-500);
+    color: var(--text-50);
     padding: 14px 24px;
     border: none;
     border-radius: 6px;
@@ -200,11 +200,11 @@ button[type="button"]:hover {
 }
 
 #viewBio:hover {
-    background-color: var(--hk-secondary-400);
+    background-color: var(--secondary-400);
 }
 
 #hobbies-short {
-    border: 1px solid var(--hk-background-600);
+    border: 1px solid var(--background-600);
     padding: 10px;
     border-radius: 6px;
     margin-bottom: 5px;
@@ -220,16 +220,16 @@ button[type="button"]:hover {
     margin-bottom: 5px;
     min-height: 120px;
     resize: vertical;
-    background-color: var(--hk-background-700);
-    color: var(--hk-text-100);
+    background-color: var(--background-700);
+    color: var(--text-100);
 }
 
 #show-more-hobbies:hover {
-    background-color: var(--hk-accent-500);
+    background-color: var(--accent-500);
 }
 
 #hobbiesContainer {
-    border: 1px solid var(--hk-background-600);
+    border: 1px solid var(--background-600);
     padding: 10px;
     border-radius: 6px;
     margin-top: 5px;
@@ -247,10 +247,10 @@ button[type="button"]:hover {
 }
 
 #characterBioForm button.button[type="submit"] {
-    background-color: var(--hk-primary-500);
-    color: var(--hk-text-50);
+    background-color: var(--primary-500);
+    color: var(--text-50);
     padding: 8px;
-    border: 2px solid var(--hk-primary-500);
+    border: 2px solid var(--primary-500);
     border-radius: 6px;
     cursor: pointer;
     font-size: 18px;
@@ -259,14 +259,14 @@ button[type="button"]:hover {
 }
 
 #characterBioForm button.button[type="submit"]:hover {
-    background-color: var(--hk-text-50);
-    color: var(--hk-primary-500);
+    background-color: var(--text-50);
+    color: var(--primary-500);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #downloadBio {
-    background-color: var(--hk-secondary-500);
-    color: var(--hk-text-50);
+    background-color: var(--secondary-500);
+    color: var(--text-50);
     padding: 14px 24px;
     border: none;
     border-radius: 6px;
@@ -279,5 +279,5 @@ button[type="button"]:hover {
 }
 
 #downloadBio:hover {
-    background-color: var(--hk-secondary-400);
+    background-color: var(--secondary-400);
 }
