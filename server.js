@@ -4,7 +4,7 @@ const path = require('path');
 
 const hostname = process.env.HOSTNAME || '127.0.0.1';
 const port = process.env.PORT || 3000;
-const dataFilePath = path.join(__dirname, 'data.json');
+const dataFilePath = 'data.json';
 
 // Create data.json if it doesn't exist
 fs.access(dataFilePath)
