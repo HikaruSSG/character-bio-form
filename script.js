@@ -1,5 +1,65 @@
 // Adds a new relation input field to the form.
 function addRelation() {
+    // Get the container for relation inputs.
+    const relationsContainer = document.getElementById('relationsContainer');
+    // Create a new div to hold the relation inputs.
+    const newRelationDiv = document.createElement('div');
+    // Set the HTML content for the new relation div, including input fields for character name and relation, and a delete button.
+    newRelationDiv.innerHTML = `
+        <input type="text" name="otherCharacter[]" placeholder="Character Name">
+        <input type="text" name="relation[]" placeholder="Relation">
+        <button type="button" onclick="deleteRelation(this)">Delete</button>
+    `;
+    // Append the new relation div to the relations container.
+    relationsContainer.appendChild(newRelationDiv);
+}
+// Adds a new relation input field to the form.
+function addRelation() {
+    // Get the container for relation inputs.
+    const relationsContainer = document.getElementById('relationsContainer');
+    // Create a new div to hold the relation inputs.
+    const newRelationDiv = document.createElement('div');
+    // Set the HTML content for the new relation div, including input fields for character name and relation, and a delete button.
+    newRelationDiv.innerHTML = `
+        <input type="text" name="otherCharacter[]" placeholder="Character Name">
+        <input type="text" name="relation[]" placeholder="Relation">
+        <button type="button" onclick="deleteRelation(this)">Delete</button>
+    `;
+    // Append the new relation div to the relations container.
+    relationsContainer.appendChild(newRelationDiv);
+}
+// Adds a new relation input field to the form.
+function addRelation() {
+    // Get the container for relation inputs.
+    const relationsContainer = document.getElementById('relationsContainer');
+    // Create a new div to hold the relation inputs.
+    const newRelationDiv = document.createElement('div');
+    // Set the HTML content for the new relation div, including input fields for character name and relation, and a delete button.
+    newRelationDiv.innerHTML = `
+        <input type="text" name="otherCharacter[]" placeholder="Character Name">
+        <input type="text" name="relation[]" placeholder="Relation">
+        <button type="button" onclick="deleteRelation(this)">Delete</button>
+    `;
+    // Append the new relation div to the relations container.
+    relationsContainer.appendChild(newRelationDiv);
+}
+// Adds a new relation input field to the form.
+function addRelation() {
+    // Get the container for relation inputs.
+    const relationsContainer = document.getElementById('relationsContainer');
+    // Create a new div to hold the relation inputs.
+    const newRelationDiv = document.createElement('div');
+    // Set the HTML content for the new relation div, including input fields for character name and relation, and a delete button.
+    newRelationDiv.innerHTML = `
+        <input type="text" name="otherCharacter[]" placeholder="Character Name">
+        <input type="text" name="relation[]" placeholder="Relation">
+        <button type="button" onclick="deleteRelation(this)">Delete</button>
+    `;
+    // Append the new relation div to the relations container.
+    relationsContainer.appendChild(newRelationDiv);
+}
+// Adds a new relation input field to the form.
+function addRelation() {
     const relationsContainer = document.getElementById('relationsContainer');
     const newRelationDiv = document.createElement('div');
     newRelationDiv.innerHTML = `
